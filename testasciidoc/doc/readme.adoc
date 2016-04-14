@@ -1,7 +1,7 @@
 :imagesdir: images/
 
 [[_getting_started_with_RestComm_MayDay_Web_Application_Configuration]]
-= RestComm - MayDay Web Application Configuration 
+= RestComm - MayDay Web Application Deployment and Configuration 
 
 Mayday application, like the popular Amazon’s feature in their Kindle Fire Tablets is a remote support and instant helpline.
 The application is implemented by SPAN on iOS and Android using Telestax’s Restcomm SDK for WebRTC.
@@ -19,10 +19,7 @@ Install the latest Restcomm Docker image locally (i.e. $ docker pull mobicents/r
 For more information please check http://www.telestax.com/rapid-webrtc-application-development-with-restcomm-and-docker/ and https://github.com/RestComm/Restcomm-Docker#restcomm-docker-image. If you aren’t familiar with docker you can have a quick intro here https://www.docker.com/
 
 
-==== RestComm - MayDay Web Application Configuration
-
-
-*To build and deploy RestComm MayDay web Client into Tomcat server*
+==== To build and deploy RestComm MayDay web Client into Tomcat server
 
 . Run the tomcat in HTTPS mode (without this Chrome will not establish WebRTC call).
 . Run the Maven build as package this will generate MayDay.war (in target folder)
