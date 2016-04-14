@@ -77,7 +77,7 @@ image::Agent_Chat.JPG[align="center"]
 8:	*Agent Screen – Click on the PDF button on Widget – which populate slide window and drag and drop the PDF file, which agent want to share PDF with customer.*
  *Navigate the PDF file by clicking the navigation buttons.*
  
- image::Agent_PDF_Share.JPG[align="center"]
+image::Agent_PDF_Share.JPG[align="center"]
 
 {nbsp} +
 
